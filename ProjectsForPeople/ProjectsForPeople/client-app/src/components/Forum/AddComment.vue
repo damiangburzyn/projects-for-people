@@ -10,15 +10,16 @@
 <script lang="ts">
     import Vue from 'vue'
     interface IAddComment {
-        Message: string,
-        Placeholder: string
+        Message: string;
+        Placeholder: string;
     }
     export default Vue.extend({
         name: 'AddComment',
         data(): IAddComment {
             return {
-                Message: "To jest Message",
-                Placeholder:"Placeholder"
-            }
-        }
-  })</script>
+                Message: 'To jest Message',
+                Placeholder: 'Placeholder',
+            };
+        },
+  });
+</script>
